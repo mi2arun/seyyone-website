@@ -49,7 +49,7 @@ function get_menu_items() {
                     'column' => [
                         [
                             'title' => 'Healthcare KPO',
-                            'url' => 'healthindex.php',
+                            'url' => 'healthimdex.php',
                             'icon' => 'assets/images/service/icons/22.svg',
                             'description' => 'Moving data to cloud infrastructure.'
                         ]

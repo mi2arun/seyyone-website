@@ -64,8 +64,7 @@ Thumbs.db
 /wp-content/cache/
 
 # Compiled output
-*.min.css
-*.min.js
+ 
 
 # Package manager locks (uncomment if you want to ignore)
 # package-lock.json
