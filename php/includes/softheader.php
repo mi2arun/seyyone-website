@@ -7,12 +7,12 @@
     <meta name="description" content="Seyyone - IT solutions for a growing businesses.">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav.jpg">
     <title>Seyyone - IT solutions for a growing businesses</title>
-    <link rel="stylesheet preload" href="/assets/css/vendor/bootstrap.min.css" as="style" media="print" onload="this.media='all'">
-    <link rel="stylesheet preload" href="/assets/css/plugins/fontawesome.css" as="style" media="print" onload="this.media='all'">
-    <link rel="stylesheet preload" href="/assets/css/plugins/magnifying-popup.css" as="style" media="print" onload="this.media='all'">
-    <link rel="stylesheet preload" href="/assets/css/plugins/swiper.css" as="style" media="print" onload="this.media='all'">
-    <link rel="stylesheet preload" href="/assets/css/plugins/metismenu.css" as="style" media="print" onload="this.media='all'">
-    <link rel="stylesheet preload" href="/assets/css/style.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/bootstrap.min.css" as="style" media="print" onload="this.media='all'">
+    <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style" media="print" onload="this.media='all'">
+    <link rel="stylesheet preload" href="assets/css/plugins/magnifying-popup.css" as="style" media="print" onload="this.media='all'">
+    <link rel="stylesheet preload" href="assets/css/plugins/swiper.css" as="style" media="print" onload="this.media='all'">
+    <link rel="stylesheet preload" href="assets/css/plugins/metismenu.css" as="style" media="print" onload="this.media='all'">
+    <link rel="stylesheet preload" href="assets/css/style.css" as="style">
 </head>
 
 <body>
