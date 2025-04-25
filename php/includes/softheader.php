@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Seyyone - IT solutions for a growing businesses.">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.jpg">
     <title>Seyyone - IT solutions for a growing businesses</title>
     <link rel="stylesheet preload" href="assets/css/vendor/bootstrap.min.css" as="style" media="print" onload="this.media='all'">
     <link rel="stylesheet preload" href="assets/css/plugins/fontawesome.css" as="style" media="print" onload="this.media='all'">
@@ -88,7 +88,7 @@
                     <div class="button-area-right-header">
                         <a href="/contact.php" class="rts-btn btn-border">
                             Get in touch
-                            <img class="injectable" src="/assets/images/service/icons/13.svg" alt="arrow">
+                            <img class="injectable" src="assets/images/service/icons/13.svg" alt="arrow">
                         </a>
                         <div class="menu-btn-toggle">
                             <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
