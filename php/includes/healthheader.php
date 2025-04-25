@@ -208,12 +208,12 @@
                     <li><a href="/faq.php"><i class="fa-sharp fa-regular fa-chevron-right"></i>FAQs</a></li>
                 </ul>
             </li>
-            <li><a class="nav-link" href="/contact.php">Contact</a></li>
+            <li><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
     </nav>
 </div>
                     <div class="button-area-right-header">
-                        <a href="/contact.php" class="rts-btn btn-border">
+                        <a href="contact.php" class="rts-btn btn-border">
                             Get in touch
                             <img class="injectable" src="assets/images/service/icons/13.svg" alt="arrow">
                         </a>
