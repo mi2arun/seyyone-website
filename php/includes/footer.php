@@ -47,8 +47,8 @@
                                     <p class="parent">Industrys</p>
                                     <ul>
                                     
-                                        <li><a href="healthcare-industry.html">Healthcare</a></li>
-                                        <li><a href="ecommerce-industry.html">Software</a></li>
+                                        <li><a href="healthindex.php">Healthcare</a></li>
+                                        <li><a href="softindex.php">Software</a></li>
                                         
                                     </ul>
                                 </div>
@@ -57,11 +57,11 @@
                                 <div class="single-nav-area-footer">
                                     <p class="parent">Legal</p>
                                     <ul>
-                                        <li><a href="terms-of-use.html">Terms</a></li>
-                                        <li><a href="privacy-policy.html">Privacy</a></li>
-                                        <li><a href="cookies-policy.html">Cookies</a></li>
-                                        <li><a href="faq.html">Faq's</a></li>
-                                        <li><a href="free-consultation.html">Consultation</a></li>
+                                        <li><a href="#">Terms</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Cookies</a></li>
+                                        <li><a href="faq.php">Faq's</a></li>
+                                        <li><a href="#">Consultation</a></li>
                                      
                                     </ul>
                                 </div>

@@ -54,15 +54,17 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                          
+                              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div class="single-nav-area-footer">
-                                    <p class="parent">Resources</p>
+                                    <p class="parent">Legal</p>
                                     <ul>
-                                        <li><a href="terms-of-use.html">Documentation</a></li>
-                                        <li><a href="privacy-policy.html">API References</a></li>
-                                        <li><a href="cookies-policy.html">Tech Blog</a></li>
-                                        <li><a href="faq.html">Developer Tools</a></li>
-                                        <li><a href="free-consultation.html">Consultation</a></li>
+                                        <li><a href="#">Terms</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Cookies</a></li>
+                                        <li><a href="softfaq.php">Faq's</a></li>
+                                        <li><a href="#">Consultation</a></li>
+                                     
                                     </ul>
                                 </div>
                             </div>

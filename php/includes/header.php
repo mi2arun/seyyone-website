@@ -157,7 +157,7 @@ function render_menu($items) {
 // Get the menu items
 $menu_items = get_menu_items();
 
-if ($current_page == 'contact.php' || $current_page == 'company.php') {
+if ($current_page == 'contact.php' || $current_page == 'company.php' ||  $current_page == 'faq.php') {
     // Contact page and Company page header style
     ?>
     <header class="header-style-one border-bottm">
