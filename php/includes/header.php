@@ -210,7 +210,7 @@ if ($current_page == 'contact.php' || $current_page == 'company.php') {
                     <div class="header-four-wrapper">
                         <a href="index.php" class="logo">
                             <!--<img src="assets/images/logo/logo-light.png" alt="logo">-->
-                            <img width="180" height="50" src="assets/images/logo/logo-blue.png" alt="logo">
+                            <img width="180" height="50" src="assets/images/logo/logo-light.png" alt="logo">
                         </a>
                         <div class="nav-area">
                             <nav>
