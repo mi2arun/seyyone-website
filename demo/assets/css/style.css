@@ -643,7 +643,7 @@ ol ul {
 }
 
 .rts-section-gap {
-  padding: 130px 0;
+  padding: 30px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gap {
@@ -671,7 +671,7 @@ ol ul {
 }
 
 .rts-section-gapTop {
-  padding-top: 130px;
+  padding-top: 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rts-section-gapTop {
@@ -13590,7 +13590,7 @@ li.has-dropdown:hover .submenu {
 .banner-inner-why-choose-us {
   max-width: 60%;
   margin: auto;
-  padding: 100px 0 60px 0;
+  padding: 50px 0 60px 0;
   text-align: center;
 }
 @media only screen and (max-width: 575px) {
