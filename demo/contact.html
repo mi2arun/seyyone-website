@@ -481,13 +481,51 @@
                             <textarea id="message" name="message" placeholder="Leave us a message..."
                                 required></textarea>
                         </div>
-                        <div class="form-check">
+                       
+
+ 
+ <!-- Row 1: Radio Buttons - I am a -->
+<div class="form-group mb-3">
+    <fieldset class="gfield_radio" id="input_1_6">
+        <label class="form-label">I am a <span class="gfield_required" style="color: red;">*</span></label>
+        <div class=" ">
+            <input class="form-check-input" name="input_6" type="radio" value="Client" id="client_radio">
+            Client
+        </div>
+        <div class=" ">
+            <input class="form-check-input" name="input_6" type="radio" value="Jobseeker" id="jobseeker_radio">
+            Jobseeker 
+        </div>
+    </fieldset>
+</div>
+
+<!-- Row 2: Checkboxes - Our Services -->
+<div class="form-group mb-3">
+    <fieldset class="gfield_checkbox" id="input_1_7">
+        <label class="form-label">Our Services <span class="gfield_required" style="color: red;">*</span></label>
+        <div class=" ">
+            <input class="form-check-input" type="checkbox" value="Healthcare KPO" id="healthcare_check" name="services[]">
+             Healthcare KPO 
+        </div>
+        <div class=" ">
+            <input class="form-check-input" type="checkbox" value="Software" id="software_check" name="services[]">
+            Software Services
+        </div>
+    </fieldset>
+</div>
+
+
+  <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1" name="agree"
                                 required>
                             <label class="form-check-label" for="defaultCheck1">
                                 You agree to our friendly privacy policy.
                             </label>
                         </div>
+
+                        <br>
+                    
+                        
                         <button type="submit" class="rts-btn btn-primary">Send message
                             <img class="injectable" src="assets/images/service/icons/13.svg" alt="arrow">
                         </button>
