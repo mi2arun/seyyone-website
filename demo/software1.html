@@ -866,8 +866,43 @@
  
  
  <script>
+
+    const modalContent = {
+    mobile: {
+        title: "Mobile Solutions",
+        image: "assets/images/seyyone/software_images/mobile software solutions3.jpg",
+        description: "We have a proven history of creating native applications that fully leverage the unique capabilities of each mobile operating system. Our mobile development team specializes in creating high-performance, user-friendly applications for both iOS and Android platforms, ensuring optimal performance, design, and functionality across all platforms.",
+        features: [
+            {
+                title: "Excellence in Native Application Development",
+                description: "We have a proven history of creating native applications that fully leverage the unique capabilities of each mobile operating system. Our expertise spans across iOS, Android, Windows 8, and BlackBerry, ensuring optimal performance, design, and functionality for each platform."
+            },
+            {
+                title: "Optimized Web Applications for Mobile Accessibility", 
+                description: "Adapting your web applications for mobile screens ensures universally accessible content and functionality. We specialize in developing web app features that engage mobile users and deliver seamless content across all device types."
+            },
+            {
+                title: "Seamless Application Porting Across Platforms",
+                description: "Application porting is a straightforward method to extend a native app from one operating system to others. Our engineering expertise ensures seamless collaboration with your project teams, delivering consistent app quality to new user platforms."
+            },
+            {
+                title: "Innovative Hybrid Application Development",
+                description: "Seyyone excels in meeting cross-platform application development needs, leveraging the latest technologies to deliver highly scalable hybrid mobile apps. We ensure these apps are available across multiple app stores, tailored to client requirements and feasibility."
+            },
+            {
+                title: "App Store Optimization",
+                description: "Our comprehensive app store optimization services help your mobile applications achieve maximum visibility and downloads. We optimize app listings, keywords, descriptions, and visual assets to improve rankings and user acquisition across all major app stores."
+            },
+            {
+                title: "Mobile App Testing & QA",
+                description: "We provide thorough testing and quality assurance services to ensure your mobile applications perform flawlessly across different devices, operating systems, and network conditions. Our testing covers functionality, usability, performance, and security aspects."
+            }
+        ]
+    },
+    // ... other services remain the same
+};
 // Content data for each service
-const modalContent = {
+const modalContent1 = {
     software: {
         title: "Software Services",
         image: "assets/images/seyyone/software_images/software1.jpg",
@@ -889,7 +924,7 @@ const modalContent = {
             "Excellence in Native Application Development",
             "Optimized Web Applications for Mobile Accessibility",
             "Seamless Application Porting Across Platforms",
-            "Mobile UI/UX Design",
+            "Innovative Hybrid Application Development",
             "App Store Optimization",
             "Mobile App Testing & QA"
         ]
@@ -964,8 +999,52 @@ const modalContent = {
 // Store current scroll position
 let currentScrollY = 0;
 
-// Function to open modal with dynamic content
 function openModal(serviceType) {
+    currentScrollY = window.scrollY;
+    
+    const modal = document.getElementById('myModal');
+    const overlay = document.getElementById('modalOverlay');
+    const content = modalContent[serviceType];
+    
+    // Generate features HTML with detailed descriptions
+    let featuresHTML = '';
+    if (Array.isArray(content.features)) {
+        // Handle array of objects with title and description
+        if (typeof content.features[0] === 'object') {
+            featuresHTML = content.features.map(feature => `
+                <div class="feature-item mb-3">
+                    <h5 class="text-primary">${feature.title}</h5>
+                    <p class="text-muted">${feature.description}</p>
+                </div>
+            `).join('');
+        } else {
+            // Handle simple array of strings (for backward compatibility)
+            featuresHTML = `<ul>${content.features.map(feature => `<li>${feature}</li>`).join('')}</ul>`;
+        }
+    }
+    
+    // Generate HTML content
+    const htmlContent = `
+        <img src="${content.image}" alt="${content.title}" style="width: 99%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+        <h2>${content.title}</h2>
+        <p>${content.description}</p>
+        <div class="features-section">
+            ${featuresHTML}
+        </div>
+    `;
+    
+    document.getElementById('modalContent').innerHTML = htmlContent;
+    
+    document.body.classList.add('modal-open');
+    document.body.style.top = `-${currentScrollY}px`;
+    
+    modal.style.display = 'block';
+    overlay.style.display = 'block';
+    modal.scrollTop = 0;
+}
+
+// Function to open modal with dynamic content
+function openModal1(serviceType) {
     // Store current scroll position
     currentScrollY = window.scrollY;
     
@@ -1061,8 +1140,8 @@ modal.onclick = (e) => {
     top: 50%;
     left: 50%;
     width: 90%;
-    max-width: 800px;
-    max-height: 90vh;
+   
+    max-height: 98vh;
     background: #fff;
     border-radius: 10px;
     overflow-y: auto;
