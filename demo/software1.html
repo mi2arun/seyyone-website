@@ -1035,12 +1035,12 @@ function openModal(serviceType) {
     // Generate HTML content
      // Generate HTML content with proper 3-column row layout
 const htmlContent = `
-    <div class="header-row section-seperator-b" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 25px; padding: 15px 20px;   border-radius: 10px;  ">
+    <div class="header-row section-seperator-b" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 25px; padding: 0px 20px;   border-radius: 10px;  ">
         <div class="left-image" style="flex: 0 0 auto; margin-right: 15px;">
             <img src="${content.image}" alt="${content.title}" style="width: 70px; height: 70px; object-fit: cover; border-radius: 50%; border: 3px solid #3498db; box-shadow: 0 4px 10px rgba(0,0,0,0.1); min-width: 50px;">
         </div>
         <div class="center-title" style="flex: 1; text-align: center; padding: 0 10px; min-width: 0;">
-            <h4 style="margin: 0; color: #2c3e50;   font-weight: 1200;">${content.title}</h4>
+            <h3 style="margin: 0; color: #2c3e50;   font-weight: 1200;">${content.title}</h3>
         </div>
        
          
@@ -1162,6 +1162,7 @@ body.modal-open {
     padding: 20px;
     font-size: 16px;
     line-height: 1.6;
+    
 }
 
 /* Close button styling */
@@ -1177,6 +1178,7 @@ body.modal-open {
     text-align: center;
     line-height: 40px;
     cursor: pointer;
+    float :left
 }
 
 /* Modal content styles */
@@ -1185,7 +1187,7 @@ body.modal-open {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #modalContent h2 {
