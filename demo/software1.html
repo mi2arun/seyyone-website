@@ -911,100 +911,7 @@
     // ... other services remain the same
 };
 // Content data for each service
-const modalContent1 = {
-    software: {
-        title: "Software Services",
-        image: "assets/images/seyyone/software_images/software1.jpg",
-        description: "Our application services offer comprehensive software development, leveraging cutting-edge technology tailored to your company's specific needs. By employing the Agile development methodology and an integrated quality assurance process, we collaborate closely with our clients to craft unique, customer-centric, and innovative solutions.",
-        features: [
-            "Custom Software Development",
-            "Web Application Development", 
-            "Enterprise Solutions",
-            "API Development & Integration",
-            "Quality Assurance & Testing",
-            "Maintenance & Support"
-        ]
-    },
-    mobile: {
-        title: "Mobile Solutions",
-        image: "assets/images/seyyone/software_images/mobile software solutions3.jpg",
-        description: "We have a proven history of creating native applications that fully leverage the unique capabilities of each mobile operating system. Our mobile development team specializes in creating high-performance, user-friendly applications for both iOS and Android platforms.",
-        features: [
-            "Excellence in Native Application Development",
-            "Optimized Web Applications for Mobile Accessibility",
-            "Seamless Application Porting Across Platforms",
-            "Innovative Hybrid Application Development",
-            "App Store Optimization",
-            "Mobile App Testing & QA"
-        ]
-    },
-    cloud: {
-        title: "Cloud Solutions",
-        image: "assets/images/seyyone/software_images/Cloud solutions1.jpg",
-        description: "Experience the Seyyone Advantage with our unparalleled Cloud Computing expertise. We help businesses migrate, optimize, and manage their cloud infrastructure for maximum efficiency and cost-effectiveness.",
-        features: [
-            "Cloud Migration Services",
-            "AWS & Azure Solutions",
-            "Cloud Architecture Design",
-            "DevOps & Automation",
-            "Cloud Security & Compliance",
-            "Cost Optimization & Monitoring"
-        ]
-    },
-    aiml: {
-        title: "AI/ML Solutions",
-        image: "assets/images/seyyone/software_images/AI_ML solutions1.jpg",
-        description: "Leading the way in AI and ML services, Seyyone serves a wide range of businesses globally, from small startups to large conglomerates. We implement cutting-edge artificial intelligence and machine learning solutions to drive business innovation.",
-        features: [
-            "Machine Learning Model Development",
-            "Natural Language Processing (NLP)",
-            "Computer Vision Solutions",
-            "Predictive Analytics",
-            "AI-Powered Automation",
-            "Deep Learning Applications"
-        ]
-    },
-    analytics: {
-        title: "Analytical and Reporting",
-        image: "assets/images/seyyone/software_images/Analytics and Reporting1.jpg",
-        description: "Using techniques like OLAP, data mining, and data modeling, organizations are advancing their knowledge in the domains of business intelligence. We provide comprehensive analytics solutions to help you make data-driven decisions.",
-        features: [
-            "Business Intelligence Solutions",
-            "Data Visualization & Dashboards",
-            "Real-time Analytics",
-            "Custom Reporting Tools",
-            "Data Mining & Modeling",
-            "Performance Metrics & KPIs"
-        ]
-    },
-    talent: {
-        title: "Talent Management",
-        image: "assets/images/seyyone/software_images/talent management2.jpg",
-        description: "Seyyone Software bridges the gap between the supply and demand for software engineering talent, making it a favored partner for hundreds of small and mid-sized businesses. We provide skilled professionals to augment your development teams.",
-        features: [
-            "Staff Augmentation Services",
-            "Dedicated Development Teams",
-            "Technical Recruitment",
-            "Remote Team Management",
-            "Skill Assessment & Training",
-            "Project-based Hiring"
-        ]
-    },
-    hardware: {
-        title: "Remote Hardware Infrastructure",
-        image: "assets/images/seyyone/software_images/remote hardware infra.jpg",
-        description: "Seyyone's team has been freeing its clients of the burden and stress of overseeing front desk and back-office operations. We provide comprehensive remote infrastructure management services to ensure your systems run smoothly.",
-        features: [
-            "Remote Infrastructure Monitoring",
-            "Server Management & Maintenance",
-            "Network Administration",
-            "Hardware Procurement & Setup",
-            "24/7 Technical Support",
-            "Disaster Recovery Planning"
-        ]
-    }
-};
-
+ 
 // Store current scroll position
 let currentScrollY = 0;
 
@@ -1045,7 +952,12 @@ const htmlContent = `
        
          
     </div>
+    
     <div class="content-body" style="padding: 0 20px;">
+        <div class="feature-item mb-3">
+                    
+                    <p class="text-muted">${content.description}</p>
+                </div>
         
         <div class="features-section">
             
