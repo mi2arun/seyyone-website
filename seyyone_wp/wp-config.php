@@ -103,5 +103,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
+define('WP_HOME', 'https://xcomvpn.com/seyyone-website/seyyone_wp');
+define('WP_SITEURL', 'https://xcomvpn.com/seyyone-website/seyyone_wp');
+
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
