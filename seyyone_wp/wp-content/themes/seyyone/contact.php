@@ -59,11 +59,11 @@ get_header();
                             <label class="form-label">I am a <span class="gfield_required" style="color: red;">*</span></label>
                             <div class="">
                                 <input class="" name="user_type" type="radio" value="Client" id="client_radio" required>
-                                <label for="client_radio">Client</label>
+                                 Client 
                             </div>
                             <div class="">
                                 <input class="form-check-input" name="user_type" type="radio" value="Jobseeker" id="jobseeker_radio" required>
-                                <label for="jobseeker_radio">Jobseeker</label>
+                                Jobseeker 
                             </div>
                         </fieldset>
                     </div>
@@ -74,14 +74,16 @@ get_header();
                             <label class="for-messages">Our Services <span class="gfield_required" style="color: red;">*</span></label>
                             <div class="">
                                 <input class="form-check-label" type="checkbox" value="Healthcare KPO" id="healthcare_check" name="services[]">
-                                <label for="healthcare_check">Healthcare KPO</label>
+                                 Healthcare KPO 
                             </div>
                             <div class="">
                                 <input class="form-check-label" type="checkbox" value="Software" id="software_check" name="services[]">
-                                <label for="software_check">Software Services</label>
+                                Software Services 
                             </div>
                         </fieldset>
                     </div>
+
+                    
 
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1" name="agree" required>

@@ -132,7 +132,7 @@
                                                             <p>Software Solutions</p>
                                                         </li>
                                                         <li>
-                                                            <a class="industries" href="<?php echo home_url('/software#application-services'); ?>">
+                                                            <a class="industries" href="<?php echo home_url('/software#software-services'); ?>">
                                                                 <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
                                                                 Software Services
                                                             </a>
@@ -184,7 +184,7 @@
                                     <a class="nav-link" href="#">Join Us <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
                                     <ul class="submenu parent-nav with-border">
                                         <li><a href="<?php echo home_url('/career'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Career</a></li>
-                                        <li><a href="#"><i class="fa-sharp fa-regular fa-chevron-right"></i>Open Positions</a></li>
+                                        <li><a href="<?php echo home_url('/career#job-openings'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Open Positions</a></li>
                                     </ul>
                                 </li>
                                 
@@ -338,7 +338,7 @@
                                                             <p>Software Solutions</p>
                                                         </li>
                                                         <li>
-                                                            <a class="industries" href="<?php echo home_url('/software#application-services'); ?>">
+                                                            <a class="industries" href="<?php echo home_url('/software#software-services'); ?>">
                                                                 <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
                                                                 Software Services
                                                             </a>
@@ -390,7 +390,7 @@
                                     <a class="nav-link" href="#">Join Us <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
                                     <ul class="submenu parent-nav with-border">
                                         <li><a href="<?php echo home_url('/career'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Career</a></li>
-                                        <li><a href="#"><i class="fa-sharp fa-regular fa-chevron-right"></i>Open Positions</a></li>
+                                        <li><a href="<?php echo home_url('/career#job-openings'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Open Positions</a></li>
                                     </ul>
                                 </li>
                                 

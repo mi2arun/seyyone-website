@@ -46,7 +46,7 @@
                         <div class="single-nav-area-footer">
                             <p class="parent">Software Service</p>
                             <ul>
-                                <li><a href="<?php echo home_url('/software#application-services'); ?>">Software Services</a></li>
+                                <li><a href="<?php echo home_url('/software#software-services'); ?>">Software Services</a></li>
                                 <li><a href="<?php echo home_url('/software#mobile-solutions'); ?>">Mobile Solutions</a></li>
                                 <li><a href="<?php echo home_url('/software#cloud-solutions'); ?>">Cloud Solutions</a></li>
                                 <li><a href="<?php echo home_url('/software#ai-ml-solutions'); ?>">AI/ML Solutions</a></li>
