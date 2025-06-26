@@ -126,7 +126,8 @@ $banner_url = get_field('home_banner_image');
         <!-- Healthcare KPO Card -->
         <div class="col-lg-6 mb-4">
             <div class="service-card bg-light p-5 rounded h-100 wow fadeInLeft" data-wow-delay="0.3s">
-                <h3 class="mb-3">Healthcare KPO</h3>
+              
+                  <h3 class="mb-3"><span class="underlined-text">Hel</span>thcare KPO</h3>
                 <p class="mb-4">
                     Our HIPAA-compliant healthcare knowledge process outsourcing services help medical facilities streamline operations, reduce costs, and improve patient
                     care. With over 25 years of experience, we deliver accurate and timely solutions.
@@ -695,8 +696,7 @@ $banner_url = get_field('home_banner_image');
     /* custom css */
 .underlined-text {
     position: relative;
-    color: #3f5cd6;
-    font-weight: bold;
+  
 }
 
 .underlined-text:after {
