@@ -220,9 +220,9 @@ get_header();
             <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="single-job-opening-card">
                     <h4 class="title">Help Desk Technician</h4>
-                    <p><span>Responsibilities:</span> Work with clients to assess their IT needs, develop strategic
+                    <p> Responsibilities:  Work with clients to assess their IT needs, develop strategic
                         roadmaps, and implement tailored solutions.</p>
-                    <p><span>Qualifications:</span> Strong analytical skills, excellent communication abilities, and
+                    <p>Qualifications:  Strong analytical skills, excellent communication abilities, and
                         a background in IT strategy and implementation.</p>
                     <div class="tag-wrapper">
                         <div class="single">
