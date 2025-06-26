@@ -161,7 +161,7 @@ $banner_url = get_field('home_banner_image');
         <!-- Software Solutions Card -->
         <div class="col-lg-6 mb-4">
             <div class="service-card bg-light p-5 rounded h-100 wow fadeInRight" data-wow-delay="0.3s">
-                <h3 class="mb-3">Software Solutions</h3>
+               <h3 class="mb-3"><span class="underlined-text">Sof</span>tware Solutions</h3>
                 <p class="mb-4">
                     Our software development team creates custom solutions tailored to your specific business needs. We specialize in healthcare software, web
                     applications, mobile apps, and enterprise solutions that drive efficiency and growth.
