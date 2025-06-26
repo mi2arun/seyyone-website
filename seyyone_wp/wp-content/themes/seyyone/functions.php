@@ -261,4 +261,15 @@ function seyyone_admin_bar_fix() {
     }
 }
 add_action('wp_head', 'seyyone_admin_bar_fix');
+
+function seyyone_enqueue_custom_css() {
+    wp_enqueue_style(
+        'seyyone-custom', 
+        get_template_directory_uri() . '/assets/css/seyyone-custom.css', 
+        array(), 
+        '1.0.0', 
+        'all'
+    );
+}
+add_action('wp_enqueue_scripts', 'seyyone_enqueue_custom_css', 99);
 ?>

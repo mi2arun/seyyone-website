@@ -692,21 +692,4 @@ $banner_url = get_field('home_banner_image');
 
 <?php get_footer(); ?>
 
-<style>
-    /* custom css */
-.underlined-text {
-    position: relative;
-  
-}
-
-.underlined-text:after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: #3f5cd6;
-}
-
-    </style>
+ 
