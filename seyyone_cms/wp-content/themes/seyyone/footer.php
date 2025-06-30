@@ -4,15 +4,12 @@
         <div class="row">
             <div class="col-lg-4 col-md-12 mb-5 mb-lg-0">
                 <div class="logo-area">
-                    <a href="<?php echo home_url(); ?>" class="logo">
-                        <?php if (has_custom_logo()) : ?>
-                            <?php the_custom_logo(); ?>
-                        <?php else : ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-blue.png" alt="<?php bloginfo('name'); ?>" width="200" height="50">
-                        <?php endif; ?>
-                    </a>
+                   
                     <p class="disc mt-4">
-                        Seyyone is a leading provider of Healthcare KPO and Software Solutions with over 25 years of experience serving clients worldwide.
+                         <h3 class="title wow fadeInUp" data-wow-delay=".3s" style="font-size: 55px">
+                      <span>Seyyone</span>  
+                    </h3>
+                         is a leading provider of Healthcare KPO and Software Solutions with over 25 years of experience serving clients worldwide.
                     </p>
                     <div class="contact-info mt-3">
                         <div class="icon">
@@ -28,49 +25,42 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                         <div class="single-nav-area-footer">
-                            <p class="parent">Healthcare Services</p>
+                            <p class="parent"> Services</p>
                             <ul>
-                                <li><a href="<?php echo home_url('/healthcare#emr-virtual-assistance'); ?>">EHR/EMR – Virtual Assistance</a></li>
-                                <li><a href="<?php echo home_url('/healthcare#medical-transcription'); ?>">Medical Transcription</a></li>
-                                <li><a href="<?php echo home_url('/healthcare#medical-scribe'); ?>">Medical Scribe</a></li>
-                                <li><a href="<?php echo home_url('/healthcare#medical-billing'); ?>">Medical Billing</a></li>
-                                <li><a href="<?php echo home_url('/healthcare#remote-medical-scribe'); ?>">Remote Medical Scribe Services</a></li>
-                                <li><a href="<?php echo home_url('/healthcare#medical-record-summarization'); ?>">Medical Record Summarization</a></li>
-                                <li><a href="<?php echo home_url('/healthcare#aps-summary'); ?>">APS Summary</a></li>
-                                <li><a href="<?php echo home_url('/healthcare#peer-review-summary'); ?>">Peer Review Summary</a></li>
+                                <li><a href="<?php echo home_url('/software'); ?>">Software</a></li>
+                                <li><a href="<?php echo home_url('/healthcare'); ?>">Healthcare</a></li>
+                                
                             </ul>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-                        <div class="single-nav-area-footer">
-                            <p class="parent">Software Service</p>
-                            <ul>
-                                <li><a href="<?php echo home_url('/software#software-services'); ?>">Software Services</a></li>
-                                <li><a href="<?php echo home_url('/software#mobile-solutions'); ?>">Mobile Solutions</a></li>
-                                <li><a href="<?php echo home_url('/software#cloud-solutions'); ?>">Cloud Solutions</a></li>
-                                <li><a href="<?php echo home_url('/software#ai-ml-solutions'); ?>">AI/ML Solutions</a></li>
-                                <li><a href="<?php echo home_url('/software#analytical-reporting'); ?>">Analytical and Reporting</a></li>
-                                <li><a href="<?php echo home_url('/software#talent-management'); ?>">Talent Management</a></li>
-                                <li><a href="<?php echo home_url('/software#remote-hardware-infra'); ?>">Remote Hardware Infra</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
+
                     <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
                         <div class="single-nav-area-footer">
                             <p class="parent">Company</p>
                             <ul>
+                                <li><a href="<?php echo home_url('/'); ?>">Home</a></li>
                                 <li><a href="<?php echo home_url('/about'); ?>">About us</a></li>
-                                <li><a href="<?php echo home_url('/terms'); ?>">Terms and Conditions</a></li>
-                                <li><a href="<?php echo home_url('/policy'); ?>">Privacy Policy</a></li>
-                                <li><a href="<?php echo home_url('/blogs'); ?>">HIPAA Compliance</a></li>
+                                <li><a href="<?php echo home_url('/about#life-at-seyyone'); ?>"> Life At Seyyone</a></li>
                                 <li><a href="<?php echo home_url('/career'); ?>">Career</a></li>
-                                <li><a href="<?php echo home_url('/case-studies'); ?>">FAQ</a></li>
+                           
                             </ul>
                         </div>
                     </div>
-                </div>
+                    
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
+                        <div class="single-nav-area-footer">
+                            <p class="parent">Legal</p>
+                            <ul>
+                                <li><a href="<?php echo home_url('/terms'); ?>">Terms and Conditions</a></li>
+                                <li><a href="<?php echo home_url('/policy'); ?>">Privacy Policy</a></li>
+                                <li><a href="<?php echo home_url('/blogs'); ?>">HIPAA Compliance</a></li>
+                                <li><a href="<?php echo home_url('/case'); ?>">FAQ</a></li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                    
+               
             </div>
         </div>
     </div>
