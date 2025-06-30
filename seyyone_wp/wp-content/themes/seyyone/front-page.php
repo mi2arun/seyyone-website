@@ -23,7 +23,7 @@ $banner_url = get_field('home_banner_image');
                     <div class="banner-four-wrapper">
                         <div class="inner-left" style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px; max-width: 90%;">
                             <h1 class="title wow fadeInUp" data-wow-offset="120" data-wow-delay=".2s" style="font-size: 30px;">
-                                Transforming
+                                Transforming  
                                 <span class="wow move-right" data-wow-offset="120" style="color: #85c4f1; display: inline-block; margin-right: 10px;">Businesses</span>
                                 Through
                                 <span class="wow move-right" data-wow-offset="120" style="color: #85c4f1; display: inline-block; margin-right: 10px;">Technology</span>
@@ -126,7 +126,7 @@ $banner_url = get_field('home_banner_image');
         <!-- Healthcare KPO Card -->
         <div class="col-lg-6 mb-4">
             <div class="service-card bg-light p-5 rounded h-100 wow fadeInLeft" data-wow-delay="0.3s">
-                <h3 class="mb-3">Healthcare KPO</h3>
+                <h3 class="mb-3"><span class="blue-underline">Hea</span>lthcare KPO</h3>
                 <p class="mb-4">
                     Our HIPAA-compliant healthcare knowledge process outsourcing services help medical facilities streamline operations, reduce costs, and improve patient
                     care. With over 25 years of experience, we deliver accurate and timely solutions.
@@ -161,7 +161,7 @@ $banner_url = get_field('home_banner_image');
         <!-- Software Solutions Card -->
         <div class="col-lg-6 mb-4">
             <div class="service-card bg-light p-5 rounded h-100 wow fadeInRight" data-wow-delay="0.3s">
-                <h3 class="mb-3">dsadasdasdasSoftware Solutions</h3>
+                <h3 class="mb-3"><span class="blue-underline">Sof</span>tware Solutions</h3>
                 
                 <p class="mb-4">
                     Our software development team creates custom solutions tailored to your specific business needs. We specialize in healthcare software, web
