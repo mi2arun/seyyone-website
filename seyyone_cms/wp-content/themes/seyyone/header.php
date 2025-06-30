@@ -70,7 +70,8 @@
                                                     </ul>
                                                 </div>
 
-                                                <div class="col-lg-4">
+                                               <!--
+                                                 <div class="col-lg-4">
                                                     <ul class="single-menu parent-nav industry-signle-menu">
                                                         <li class="parent-top-industry">
                                                             <p>Healthcare KPO</p>
@@ -174,7 +175,7 @@
                                                             </a>
                                                         </li>
                                                     </ul>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -236,7 +237,7 @@
                                         <i class="fa-duotone fa-regular fa-chevron-down"></i>
                                     </a>
                                     <ul class="submenu parent-nav with-border">
-                                        <li><a href="<?php echo home_url('/about#about-at-seyyone'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>About Us</a></li>
+                                        <li><a href="<?php echo home_url('/about#'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>About Us</a></li>
                                         <li><a href="<?php echo home_url('/about#life-at-seyyone'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Life At Seyyone</a></li>
                                         <li><a href="<?php echo home_url('/#clients'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Clients</a></li>
                                  

@@ -108,10 +108,10 @@
                 <li class="has-droupdown">
                     <a href="#" class="main">Who We Are</a>
                     <ul class="submenu mm-collapse">
-                        <li><a href="<?php echo home_url('/life-at-seyyone'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i> About Us</a></li>
-                        <li><a href="<?php echo home_url('/life-at-seyyone#life-at-seyyone'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i> Life At Seyyone</a></li>
+                        <li><a href="<?php echo home_url('/about'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="<?php echo home_url('/about#life-at-seyyone'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i> Life At Seyyone</a></li>
                         <li><a href="<?php echo home_url('/#clients'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i> Clients</a></li>
-                        <li><a href="#"><i class="fa-sharp fa-regular fa-chevron-right"></i> Our Management Team</a></li>
+                   
                         <li><a href="<?php echo home_url('/#testimonial'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i> Testimonial</a></li>
                     </ul>
                 </li>
