@@ -38,31 +38,7 @@
                                     </ul>
                                 </li>
 
-                                 <li class="has-dropdown">
-                                    <a class="nav-link" href="#">Join Us <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
-                                    <ul class="submenu parent-nav with-border">
-                                        <li><a class="single-service-area-wrapper" href="<?php echo home_url('/healthcare'); ?>">
-                                                                <div class="icon">
-                                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Healthcare KPO">
-                                                                </div>
-                                                                <div class="info">
-                                                                    <h4 class="title">Healthcare KPO</h4>
-                                                                    <p>Seyyone has been delivering innovative solutions in Healthcare</p>
-                                                                </div>
-                                                            </a>></li>
-                                           <li>
-                                                            <a class="single-service-area-wrapper" href="<?php echo home_url('/software'); ?>">
-                                                                <div class="icon">
-                                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Software">
-                                                                </div>
-                                                                <div class="info">
-                                                                    <h4 class="title">Software Solutions</h4>
-                                                                    <p>Custom software development and enterprise solutions.</p>
-                                                                </div>
-                                                            </a>
-                                                        </li>
-                                    </ul>
-                                </li>
+                                
 
                                 <li class="has-dropdown position-static with-megamenu">
                                     <a class="nav-link" href="#">What we do <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
@@ -81,8 +57,7 @@
                                                                     <p>Seyyone has been delivering innovative solutions in Healthcare</p>
                                                                 </div>
                                                             </a>
-                                                        </li>
-                                                        <li>
+                                                         
                                                             <a class="single-service-area-wrapper" href="<?php echo home_url('/software'); ?>">
                                                                 <div class="icon">
                                                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Software">
