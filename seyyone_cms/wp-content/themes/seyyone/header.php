@@ -59,7 +59,7 @@
                                                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Healthcare KPO">
                                                                 </div>
                                                                 <div class="info">
-                                                                    <h4 class="title">Healthcare KPO</h4>
+                                                                    <h4 class="title">Healthcare KPO123</h4>
                                                                     <p>Seyyone has been delivering innovative solutions in Healthcare</p>
                                                                 </div>
                                                             </a>
