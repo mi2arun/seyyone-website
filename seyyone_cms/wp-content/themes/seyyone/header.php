@@ -38,48 +38,157 @@
                                     </ul>
                                 </li>
 
-                                
+                                <li class="has-dropdown">
+                                    <a class="nav-link" href="#">Join Us <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
+                                    <ul class="submenu parent-nav with-border">
+                                        <li><a href="<?php echo home_url('/career'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Career</a></li>
+                                        <li><a href="<?php echo home_url('/career#job-openings'); ?>"><i class="fa-sharp fa-regular fa-chevron-right"></i>Open Positions</a></li>
+                                    </ul>
+                                </li>
 
-                               <li class="has-dropdown position-static with-megamenu">
-    <a class="nav-link" href="#">What we do <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
-    <div class="submenu">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="single-menu parent-nav">
-                        <li>
-                            <a class="single-service-area-wrapper" href="<?php echo home_url('/healthcare'); ?>">
-                                <div class="icon">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Healthcare KPO">
-                                </div>
-                                <div class="info">
-                                    <h4 class="title">Healthcare KPO</h4>
-                                    <p><span style="color: #3498db;">Seyyone</span> has been delivering innovative solutions in Healthcare</p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="single-menu parent-nav">
-                        <li>
-                            <a class="single-service-area-wrapper" href="<?php echo home_url('/software'); ?>">
-                                <div class="icon">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Software">
-                                </div>
-                                <div class="info">
-                                    <h4 class="title">Software Solutions</h4>
-                                    <p>Custom software development and enterprise solutions.</p>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</li>
+                                <li class="has-dropdown position-static with-megamenu">
+                                    <a class="nav-link" href="#">What we do <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
+                                    <div class="submenu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <ul class="single-menu parent-nav">
+                                                        <li>
+                                                            <a class="single-service-area-wrapper" href="<?php echo home_url('/healthcare'); ?>">
+                                                                <div class="icon">
+                                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Healthcare KPO">
+                                                                </div>
+                                                                <div class="info">
+                                                                    <h4 class="title">Healthcare KPO</h4>
+                                                                    <p>Seyyone has been delivering innovative solutions in Healthcare</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="single-service-area-wrapper" href="<?php echo home_url('/software'); ?>">
+                                                                <div class="icon">
+                                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/icons/23.svg" alt="Software">
+                                                                </div>
+                                                                <div class="info">
+                                                                    <h4 class="title">Software Solutions</h4>
+                                                                    <p>Custom software development and enterprise solutions.</p>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
 
+                                                
+
+                                               <!-- <div class="col-lg-4">
+                                                    <ul class="single-menu parent-nav industry-signle-menu">
+                                                        <li class="parent-top-industry">
+                                                            <p>Healthcare KPO</p>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#emr-virtual-assistance'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                EHR/EMR – Virtual Assistance
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#medical-transcription'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Medical Transcription
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#medical-scribe'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Medical Scribe
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#medical-billing'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Medical Billing
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#remote-medical-scribe'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Remote Medical Scribe Services
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#medical-record-summarization'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Medical Record Summarization
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#aps-summary'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                APS Summary
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/healthcare#peer-review-summary'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Peer Review Summary
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="col-lg-5">
+                                                    <ul class="single-menu parent-nav industry-signle-menu">
+                                                        <li class="parent-top-industry">
+                                                            <p>Software Solutions</p>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/software#software-services'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Software Services
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/software#mobile-solutions'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Mobile Solutions
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/software#cloud-solutions'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Cloud Solutions
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/software#ai-ml-solutions'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                AI/ML Solutions
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/software#analytical-reporting'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Analytical and Reporting
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/software#talent-management'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Talent Management
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="industries" href="<?php echo home_url('/software#remote-hardware-infra'); ?>">
+                                                                <img class="injectable" src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/arrow-right.svg" alt="arrow">
+                                                                Remote Hardware Infra
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
 
                                 <li class="has-dropdown">
                                     <a class="nav-link" href="#">Join Us <i class="fa-duotone fa-regular fa-chevron-down"></i></a>
