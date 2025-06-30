@@ -43,7 +43,7 @@ get_header();
         </div>
     </div>
      <div class="shape-area-start">
-           <img src="<?php echo get_template_directory_uri(); ?>assets/images/banner/06.png" alt="service-banner-shape" class="one wow move-right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/06.png" alt="service-banner-shape" class="one wow move-right">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner/07.png" alt="service-banner-shape" class="two wow move-left">
 
     </div>
