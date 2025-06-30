@@ -347,7 +347,7 @@ body.modal-open {
 #modalContent p,
 #modalContent ul,
 #modalContent li {
-  all: unset;
+ 
   display: revert;
   margin-bottom: 15px;
   line-height: 1.6;

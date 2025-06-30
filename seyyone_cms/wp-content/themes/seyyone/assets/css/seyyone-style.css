@@ -4,3 +4,25 @@
     padding-bottom: 5px; /* Add space between text and border */
     display: inline-block; /* Ensures the border only spans the text width */
 }
+/* Remove extra font styling to inherit site-wide styles */
+#modalContent .content-body h1,
+#modalContent .content-body h2,
+#modalContent .content-body h3,
+#modalContent .content-body h4,
+#modalContent .content-body h5,
+#modalContent .content-body h6,
+#modalContent .content-body p,
+#modalContent .content-body ul,
+#modalContent .content-body li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Preserve header styling */
+#modalContent .header-row h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-weight: 700;
+  font-family: 'Aeonik', sans-serif;
+}
+
