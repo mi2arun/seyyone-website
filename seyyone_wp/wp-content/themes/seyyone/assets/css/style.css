@@ -19764,6 +19764,18 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F5F5FF 100%);
 }
 
+/* custom css */
+ 
+
+.underlined-text:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #3f5cd6;
+}
 
 
 
