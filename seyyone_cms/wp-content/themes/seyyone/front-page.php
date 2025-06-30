@@ -23,7 +23,7 @@ $banner_url = get_field('home_banner_image');
                     <div class="banner-four-wrapper">
                         <div class="inner-left" style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px; max-width: 90%;">
                             <h1 class="title wow fadeInUp" data-wow-offset="120" data-wow-delay=".2s" style="font-size: 30px;">
-                                Transforming
+                                Transforming m
                                 <span class="wow move-right" data-wow-offset="120" style="color: #85c4f1; display: inline-block; margin-right: 10px;">Businesses</span>
                                 Through
                                 <span class="wow move-right" data-wow-offset="120" style="color: #85c4f1; display: inline-block; margin-right: 10px;">Technology</span>
