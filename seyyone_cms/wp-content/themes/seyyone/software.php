@@ -27,7 +27,7 @@ get_header();
                         IT solutions <br> for a <span>growing</span> businesses
                     </h1>
                     <p class="wow fadeInUp" data-wow-delay=".5s">
-                        With over a decade of experience and a team of certified experts, we deliver tailored solutions that drive growth and enhance efficiency.
+                        Empowering enterprises with innovative technology to stay ahead in the digital age. With over a decade of experience and a team of certified experts, we deliver tailored solutions that drive growth and enhance efficiency.
                     </p>
                     <a href="#application-services" class="rts-btn btn-primary wow fadeInUp" data-wow-delay=".7s">
                         View Solutions

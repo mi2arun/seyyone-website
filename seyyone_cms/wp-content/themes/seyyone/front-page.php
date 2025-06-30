@@ -64,7 +64,7 @@ $banner_url = get_field('home_banner_image');
                     <h3 class="title" style="font-size: clamp(18px, 3vw, 24px);">
                         <span class="counter">70</span>+ Clients
                     </h3>
-                    <p style="font-size: clamp(12px, 2vw, 14px);">accross 8 countries</p>
+                    <p style="font-size: clamp(12px, 2vw, 14px);">across 8 countries</p>
                 </div>
             </div>
           
@@ -98,7 +98,7 @@ $banner_url = get_field('home_banner_image');
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/icons/02.svg" alt="icon">
                     </div>
                     <h3 class="title" style="font-size: clamp(18px, 3vw, 24px);">
-                        <span class="counter">25</span>+ EMR
+                        <span class="counter">25</span>+ EMR Modules
                     </h3>
                     <p style="font-size: clamp(12px, 2vw, 14px);">Exposure</p>
                 </div>
@@ -109,9 +109,9 @@ $banner_url = get_field('home_banner_image');
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/icons/03.svg" alt="icon">
                     </div>
                     <h3 class="title" style="font-size: clamp(18px, 3vw, 24px);">
-                          Scribed <span class="counter">40</span> <br>Mn Lines
+                          Scribed <span class="counter">40</span> Mn <br>Lines
                     </h3>
-                    <p style="font-size: clamp(12px, 2vw, 14px);">8 Mn Pages summarized</p>
+                    <p style="font-size: clamp(12px, 2vw, 14px);">Summarized 8 Mn pages </p>
                 </div>
             </div>
         </div>
