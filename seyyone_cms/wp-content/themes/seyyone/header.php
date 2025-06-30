@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="info">
                                     <h4 class="title">Healthcare KPO</h4>
-                                    <p><span style="color: #3498db;">Seyyone</span> has been delivering innovative solutions in Healthcare</p>
+                                    <p> Seyyone  has been delivering innovative solutions in Healthcare</p>
                                 </div>
                             </a>
                         </li>
