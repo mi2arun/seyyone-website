@@ -98,9 +98,9 @@ $banner_url = get_field('home_banner_image');
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/icons/02.svg" alt="icon">
                     </div>
                     <h3 class="title" style="font-size: clamp(18px, 3vw, 24px);">
-                        <span class="counter">25</span>+ <br> EMR Modules
+                        <span class="counter">25</span>+ <br> EMR 
                     </h3>
-                    <p style="font-size: clamp(12px, 2vw, 14px);">Exposure</p>
+                    <p style="font-size: clamp(12px, 2vw, 14px);">Modules Exposure</p>
                 </div>
             </div>
              <div class="col-6 col-sm-6 col-md-4 col-lg-2">
