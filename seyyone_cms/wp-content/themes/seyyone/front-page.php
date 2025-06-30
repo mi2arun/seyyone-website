@@ -92,17 +92,19 @@ $banner_url = get_field('home_banner_image');
                 </div>
             </div>
            
+            
              <div class="col-6 col-sm-6 col-md-4 col-lg-2">
-                <div class="single-counter-up-one border-top" style="padding: 30px 10px;">
+                <div class="single-counter-up-one border-top" style="padding: 16px 10px;">
                     <div class="icon-area">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about/icons/02.svg" alt="icon">
                     </div>
                     <h3 class="title" style="font-size: clamp(18px, 3vw, 24px);">
-                        <span class="counter">25</span>+ <br> EMR 
+                            <span class="counter">25</span>+ <br>EMR Modules
                     </h3>
-                    <p style="font-size: clamp(12px, 2vw, 14px);">Modules Exposure</p>
+                    <p style="font-size: clamp(12px, 2vw, 14px);">Exposure </p>
                 </div>
             </div>
+
              <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                 <div class="single-counter-up-one border-top" style="padding: 16px 10px;">
                     <div class="icon-area">
