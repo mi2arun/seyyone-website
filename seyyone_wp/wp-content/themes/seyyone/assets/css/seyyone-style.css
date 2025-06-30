@@ -1,6 +1,0 @@
-.blue-underline {
-    text-decoration: none; /* Remove the default underline */
-    border-bottom: 3px solid #3534ff; /* Add a bottom border instead */
-    padding-bottom: 5px; /* Add space between text and border */
-    display: inline-block; /* Ensures the border only spans the text width */
-}
