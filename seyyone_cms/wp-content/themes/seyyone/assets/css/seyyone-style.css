@@ -5,3 +5,19 @@
     display: inline-block; /* Ensures the border only spans the text width */
 }
 
+ .blog_img {
+    position: relative;
+    width: 100%;
+}
+
+.post_date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #3534ff;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    z-index: 2;
+}

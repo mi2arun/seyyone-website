@@ -12,377 +12,146 @@ get_header();
 
 <div class="rts-blog-list-area rts-section-gapTop">
     <div class="container">
-        <div class="row g-5">
-            <!-- rts blog post area -->
-            <div class="col-xl-4 col-md-6 col-sm-6 col-md-6">
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/01.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Cloud Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">Future of cloud computing</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/01.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">Marcus Freeman</h6>
-                                    <span>24 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/02.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Web Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">Maximum of Web computing</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/01.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">Marcus Freeman</h6>
-                                    <span>28 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/03.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Cloud Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">UI/UX of Update Tranding Design</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/07.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">John Freeman</h6>
-                                    <span>24 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/05.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Cloud Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">Story of cloud computing</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/02.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">Marry Freeman</h6>
-                                    <span>24 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center-title-bg-white">
+                    <h2 class="title">  Blog</h2>
+                    
                 </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-sm-6 col-md-6">
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/01.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Cloud Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">Future of cloud computing</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/01.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">Marcus Freeman</h6>
-                                    <span>24 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/02.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Web Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">Maximum of Web computing</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/01.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">Marcus Freeman</h6>
-                                    <span>28 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/03.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Cloud Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">UI/UX of Update Tranding Design</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/07.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">John Freeman</h6>
-                                    <span>24 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-blog-area-start border-none mb--30">
-                    <a href="/blog-details" class="thumbnail">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/05.webp" alt="blog_image">
-                    </a>
-                    <div class="inner-content-area">
-                        <div class="top-area">
-                            <span>Cloud Migration</span>
-                            <a href="/blog-details">
-                                <h3 class="title animated fadeIn">Story of cloud computing</h3>
-                            </a>
-                            <p class="disc">
-                                How do you create compelling presentations that wow your colleagues and impress your
-                                managers?
-                            </p>
-                            <div class="bottom-author-area">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/02.png" alt="author">
-                                <div class="author-area-info">
-                                    <h6 class="title">Marry Freeman</h6>
-                                    <span>24 Sept 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- rts blog post end area -->
-            <!--rts blog wizered area -->
-            <div class="col-xl-4 col-md-12 col-sm-12 col-12 pl-b-list-controler">
-                <!-- single wizered start -->
-                <div class="rts-single-wized search">
-                    <div class="wized-header">
-                        <h5 class="title">
-                            Search Hear
-                        </h5>
-                    </div>
-                    <div class="wized-body">
-                        <div class="rts-search-wrapper">
-                            <input class="Search" type="text" placeholder="Enter Keyword">
-                            <button><i class="fal fa-search"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <!-- single wizered End -->
-                <!-- single wizered start -->
-                <div class="rts-single-wized Categories">
-                    <div class="wized-header">
-                        <h5 class="title">
-                            Categories
-                        </h5>
-                    </div>
-                    <div class="wized-body">
-                        <!-- single categoris -->
-                        <ul class="single-categories">
-                            <li><a href="/blog-details">Business Solution <i
-                                        class="far fa-long-arrow-right"></i></a></li>
-                        </ul>
-                        <!-- single categoris End -->
-                        <!-- single categoris -->
-                        <ul class="single-categories">
-                            <li><a href="/blog-details">Strategy Growth<i
-                                        class="far fa-long-arrow-right"></i></a></li>
-                        </ul>
-                        <!-- single categoris End -->
-                        <!-- single categoris -->
-                        <ul class="single-categories">
-                            <li><a href="/blog-details">Finance Solution<i
-                                        class="far fa-long-arrow-right"></i></a></li>
-                        </ul>
-                        <!-- single categoris End -->
-                        <!-- single categoris -->
-                        <ul class="single-categories">
-                            <li><a href="/blog-details">Investment Policy<i
-                                        class="far fa-long-arrow-right"></i></a></li>
-                        </ul>
-                        <!-- single categoris End -->
-                        <!-- single categoris -->
-                        <ul class="single-categories">
-                            <li><a href="/blog-details">Tax Managment<i class="far fa-long-arrow-right"></i></a>
-                            </li>
-                        </ul>
-                        <!-- single categoris End -->
-                    </div>
-                </div>
-                <!-- single wizered End -->
-                <!-- single wizered start -->
-                <div class="rts-single-wized Recent-post">
-                    <div class="wized-header">
-                        <h5 class="title">
-                            Recent Posts
-                        </h5>
-                    </div>
-                    <div class="wized-body">
-                        <!-- recent-post -->
-                        <div class="recent-post-single">
-                            <div class="thumbnail">
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/01.jpg"
-                                        alt="Blog_post"></a>
-                            </div>
-                            <div class="content-area">
-                                <div class="user">
-                                    <i class="fal fa-clock"></i>
-                                    <span>15 Jan, 2023</span>
-                                </div>
-                                <a class="post-title" href="/blog-details">
-                                    <h6 class="title">We would love to share a similar experience</h6>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- recent-post End -->
-                        <!-- recent-post -->
-                        <div class="recent-post-single">
-                            <div class="thumbnail">
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/02.jpg"
-                                        alt="Blog_post"></a>
-                            </div>
-                            <div class="content-area">
-                                <div class="user">
-                                    <i class="fal fa-clock"></i>
-                                    <span>15 Jan, 2023</span>
-                                </div>
-                                <a class="post-title" href="/blog-details">
-                                    <h6 class="title">We would love to share a similar experience</h6>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- recent-post End -->
-                        <!-- recent-post -->
-                        <div class="recent-post-single">
-                            <div class="thumbnail">
-                                                       <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/03.jpg"
-                                        alt="Blog_post"></a>
-                            </div>
-                            <div class="content-area">
-                                <div class="user">
-                                    <i class="fal fa-clock"></i>
-                                    <span>15 Jan, 2023</span>
-                                </div>
-                                <a class="post-title" href="/blog-details">
-                                    <h6 class="title">We would love to share a similar experience</h6>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- recent-post End -->
-                    </div>
-                </div>
-                <!-- single wizered End -->
-                <!-- single wizered start -->
-                <div class="rts-single-wized Recent-post">
-                    <div class="wized-header">
-                        <h5 class="title">
-                            Gallery Posts
-                        </h5>
-                    </div>
-                    <div class="wized-body">
-                        <div class="gallery-inner">
-                            <div class="row-1 single-row">
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/04.jpg" alt="Gallery"></a>
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/05.jpg" alt="Gallery"></a>
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/06.jpg" alt="Gallery"></a>
-                            </div>
-                            <div class="row-2 single-row">
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/07.jpg" alt="Gallery"></a>
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/08.jpg" alt="Gallery"></a>
-                                <a href="/blog-details"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/sm/09.jpg" alt="Gallery"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- single wizered End -->
-                <!-- single wizered start -->
-                <div class="rts-single-wized">
-                    <div class="wized-header">
-                        <h5 class="title">
-                            Popular Tags
-                        </h5>
-                    </div>
-                    <div class="wized-body">
-                        <div class="tags-wrapper">
-                            <a href="/blog-details">Services</a>
-                            <a href="/blog-details">Business</a>
-                            <a href="/blog-details">Growth</a>
-                            <a href="/blog-details">Finance</a>
-                            <a href="/blog-details">UI/UX Design</a>
-                            <a href="/blog-details">Solution</a>
-                            <a href="/blog-details">Speed</a>
-                            <a href="/blog-details">Strategy</a>
-                            <a href="/blog-details">Technology</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- single wizered End -->
-            </div>
-            <!-- rts- blog wizered end area -->
         </div>
+        
+        <div class="row g-5 mt-4">
+            <?php
+            // Get blog posts
+            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+            
+            $args = array(
+                'post_type' => 'seyyone_blog',
+                'posts_per_page' => 9,
+                'paged' => $paged,
+                'post_status' => 'publish',
+                'orderby' => 'date',
+                'order' => 'DESC'
+            );
+            
+            $blog_posts = new WP_Query($args);
+
+            if ($blog_posts->have_posts()) :
+                $delay_counter = 0;
+                while ($blog_posts->have_posts()) : $blog_posts->the_post();
+                    $post_id = get_the_ID();
+                    $title = get_the_title();
+                    $excerpt = get_the_excerpt();
+                   // $blog_id = get_post_meta($post_id, '_blog_id', true);
+                    $date = get_the_date('d M, Y');
+                    $author = get_the_author();
+                    
+                    // Calculate delay for animation
+                    $delay_values = array('', '.2s', '.4s');
+                    $delay_attr = $delay_counter > 0 ? ' data-wow-delay="' . $delay_values[$delay_counter % 3] . '"' : '';
+            ?>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-offset="120"<?php echo $delay_attr; ?>  id="<?php echo esc_attr($post_id); ?>">
+                <div class="single-blog-area-start border-none mb--30">
+                   <a href="<?php echo esc_url(home_url('/blog-details/?id=' . urlencode($post_id))); ?>" class="thumbnail">
+    <div class="blog_img">
+        <?php if (has_post_thumbnail()) : ?>
+            <?php the_post_thumbnail('medium_large', array(
+                'alt' => esc_attr($title), 
+                'style' => 'width: 100%; height: 250px; object-fit: cover;'
+            )); ?>
+        <?php else : ?>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/seyyone/blogs/2.jpg" alt="<?php echo esc_attr($title); ?>" style="width: 100%; height: 250px; object-fit: cover;">
+        <?php endif; ?>
+        <div class="post_date">
+            <?php echo get_the_date('M d Y'); ?>
+        </div>
+    </div>
+</a>
+
+                    <div class="inner-content-area">
+                        <div class="top-area">
+                            <a href="<?php echo esc_url(home_url('/blog-details/?id=' . urlencode($post_id))); ?>">
+                                <h6 class=" animated fadeIn"><?php echo esc_html($title); ?></h6>
+                            </a>
+                            <p class="disc">
+                                <?php echo wp_trim_words($excerpt, 20, '...'); ?>
+                            </p>
+                           
+                            <div class="button-area-right-header">
+                         <a href="<?php echo esc_url(home_url('/blog-details/?id=' . urlencode($post_id))); ?>" class="rts-btn btn-border">
+                            Read More
+                             
+                        </a>
+                        <div class="menu-btn-toggle">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="14" width="20" height="2" fill="#1F1F25"></rect>
+                                <rect y="7" width="20" height="2" fill="#1F1F25"></rect>
+                                <rect width="20" height="2" fill="#1F1F25"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            
+            <?php 
+                    $delay_counter++;
+                endwhile;
+            else :
+            ?>
+            
+            <div class="col-12">
+                <div style="text-align: center; padding: 60px 20px; background: #f8f9fa; border-radius: 15px; border: 2px dashed #dee2e6;">
+                    <div style="font-size: 48px; color: #6c757d; margin-bottom: 20px;">
+                        <i class="fa fa-newspaper-o"></i>
+                    </div>
+                    <h3 style="color: #495057; margin-bottom: 15px;">No Blog Posts Found</h3>
+                    <p style="color: #6c757d; margin-bottom: 25px;">We'll be adding new content soon. Check back later!</p>
+                    
+                    <?php if (current_user_can('edit_posts')) : ?>
+                        <a href="<?php echo admin_url('post-new.php?post_type=seyyone_blog'); ?>" class="rts-btn btn-primary">
+                            <i class="fa fa-plus" style="margin-right: 8px;"></i>Add New Blog Post
+                        </a>
+                    <?php endif; ?>
+                </div>
+            </div>
+            
+            <?php endif; ?>
+        </div>
+        
+        <!-- Pagination -->
+        <?php if ($blog_posts->max_num_pages > 1) : ?>
+        <div class="row">
+            <div class="col-12">
+                <div class="pagination-area">
+                    <?php
+                    echo paginate_links(array(
+                        'base' => str_replace(999999999, '%#%', esc_url(get_pagenum_link(999999999))),
+                        'format' => '?paged=%#%',
+                        'current' => max(1, get_query_var('paged')),
+                        'total' => $blog_posts->max_num_pages,
+                        'prev_text' => '<i class="fas fa-angle-left"></i>',
+                        'next_text' => '<i class="fas fa-angle-right"></i>',
+                        'type' => 'list',
+                        'end_size' => 3,
+                        'mid_size' => 3
+                    ));
+                    ?>
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+        
+        <?php wp_reset_postdata(); ?>
     </div>
 </div>
 
 <br><br>
 
 <?php get_footer(); ?>
-        
