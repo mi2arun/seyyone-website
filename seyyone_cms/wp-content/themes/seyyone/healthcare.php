@@ -313,23 +313,29 @@ body.modal-open {
   }
 }
 </style>
+ <script>
+// Store current scroll position
+let currentScrollY = 0;
 
-<!-- JavaScript for Modal -->
-<script>
-    // Store current scroll position
- let currentScrollY = 0;
 function openModal(serviceId) {
-  currentScrollY = window.scrollY;
     console.log('Opening modal for service:', serviceId);
- 
     
-    // Show overlay and modal
-    document.getElementById('modalOverlay').style.display = 'block';
-    document.getElementById('myModal').style.display = 'block';
-    document.body.classList.add('modal-open');
+    // Store current scroll position
+    currentScrollY = window.scrollY;
+    
+    // Get modal and overlay elements
+    const modal = document.getElementById('myModal');
+    const overlay = document.getElementById('modalOverlay');
     
     // Show loading
     document.getElementById('modalContent').innerHTML = '<div style="text-align: center; padding: 40px;"><div style="font-size: 24px; color: #28a745; margin-bottom: 15px;"><i class="fa fa-spinner fa-spin"></i></div><p>Loading...</p></div>';
+    
+    // Show modal immediately
+    document.body.classList.add('modal-open');
+    document.body.style.top = `-${currentScrollY}px`;
+    modal.style.display = 'block';
+    overlay.style.display = 'block';
+    modal.scrollTop = 0;
     
     // AJAX call to get service content
     var xhr = new XMLHttpRequest();
@@ -347,37 +353,49 @@ function openModal(serviceId) {
     };
     
     xhr.send('action=get_healthcare_service_by_id&service_id=' + encodeURIComponent(serviceId));
-      
-    document.body.classList.add('modal-open');
-    document.body.style.top = `-${currentScrollY}px`;
-    
-    modal.style.display = 'block';
-    overlay.style.display = 'block';
-    modal.scrollTop = 0;
 }
 
+// Function to close modal
 function closeModal() {
-    document.getElementById('modalOverlay').style.display = 'none';
-    document.getElementById('myModal').style.display = 'none';
+    const modal = document.getElementById('myModal');
+    const overlay = document.getElementById('modalOverlay');
+    
+    // Hide modal
+    modal.style.display = 'none';
+    overlay.style.display = 'none';
+    
+    // Restore body scroll
     document.body.classList.remove('modal-open');
-     document.body.style.position = '';
+    document.body.style.position = '';
     document.body.style.top = '';
     document.body.style.width = '';
-
+    
     // Restore scroll position
     window.scrollTo(0, currentScrollY);
 }
 
-// Close modal when clicking overlay
-document.getElementById('modalOverlay').addEventListener('click', closeModal);
+// Event listeners
+const modal = document.getElementById('myModal');
+const overlay = document.getElementById('modalOverlay');
 
-// Close modal with Escape key
+// Close when clicking outside the modal (on overlay)
+overlay.onclick = (e) => {
+    closeModal();
+};
+
+// Close with Escape key
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
         closeModal();
     }
 });
+
+// Prevent clicks inside modal from closing it
+modal.onclick = (e) => {
+    e.stopPropagation();
+};
 </script>
+
 
 <?php get_footer(); ?>
 

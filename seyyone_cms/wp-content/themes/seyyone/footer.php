@@ -6,7 +6,7 @@
                 <div class="logo-area">
                    
                     <p class="disc mt-4">
-                        <span style="color: #3498db;"><b>Seyyone</b></span> is a leading provider of Healthcare KPO and Software Solutions with over 25 years of experience serving clients worldwide.
+                        <span style="color: #3534FF;"><b>Seyyone</b></span> is a leading provider of Healthcare KPO and Software Solutions with over 25 years of experience serving clients worldwide.
                     </p>
                     <div class="contact-info mt-3">
                         <div class="icon">

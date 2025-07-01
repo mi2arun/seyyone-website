@@ -19,7 +19,7 @@
             <div class="col-lg-12">
                 <div class="header-wrapper-1">
                     <a href="<?php echo home_url(); ?>" class="logo-area">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-blue.png" alt="Seyyone logo" style="height: 60px;">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo_cms.png" alt="Seyyone logo" style="height: 60px;">
                     </a>
                     <div class="nav-area">
                         <nav>
@@ -132,7 +132,7 @@
             <div class="col-lg-12">
                 <div class="header-wrapper-1">
                     <a href="<?php echo home_url(); ?>" class="logo-area">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo-blue.png" alt="Seyyone logo" style="height: 60px;">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/logo_cms.png" alt="Seyyone logo" style="height: 60px;">
                     </a>
                     <div class="nav-area">
                         <nav>
