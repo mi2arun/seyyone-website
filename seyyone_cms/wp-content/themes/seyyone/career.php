@@ -222,7 +222,7 @@ get_header();
                     <h4 class="title">Help Desk Technician</h4>
                     <p>Responsibilities: Work with clients to assess their IT needs, develop strategic
                         roadmaps, and implement tailored solutions.</p>
-                    <p><Qualifications:  Strong analytical skills, excellent communication abilities, and
+                    <p>Qualifications:  Strong analytical skills, excellent communication abilities, and
                         a background in IT strategy and implementation.</p>
                     <div class="tag-wrapper">
                         <div class="single">
