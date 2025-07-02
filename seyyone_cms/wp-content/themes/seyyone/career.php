@@ -187,6 +187,7 @@ get_header();
 <!-- company values area end -->
 
 <!-- job opening area start -->
+ 
 <div class="job-opening-area" id="job-openings">
     <div class="container">
         <div class="row">
@@ -197,50 +198,61 @@ get_header();
             </div>
         </div>
         <div class="row g-5 mt--30">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
-                <div class="single-job-opening-card">
-                    <h4 class="title">IT Consultant</h4>
-                    <p>Responsibilities: Work with clients to assess their IT needs, develop strategic roadmaps, and
-                        implement tailored solutions.</p>
-                    <p>Qualifications: Strong analytical skills, excellent communication abilities, and a background
-                        in IT strategy and implementation.</p>
-                    <div class="tag-wrapper">
-                        <div class="single">
-                            <span>IT Consulting</span>
-                        </div>
-                        <div class="single">
-                            <span>IT Solutions</span>
-                        </div>
-                        <div class="single">
-                            <span>Consulting Services</span>
-                        </div>
+            <?php
+            // Include the career functions if not already included
+            if (!function_exists('seyyone_get_job_openings')) {
+                include_once(get_template_directory() . '/career-functions.php');
+            }
+            
+            $job_openings = seyyone_get_job_openings();
+            $delay = 0.1;
+            
+            if ($job_openings->have_posts()) :
+                while ($job_openings->have_posts()) : $job_openings->the_post();
+                    $responsibilities = get_post_meta(get_the_ID(), '_job_responsibilities', true);
+                    $qualifications = get_post_meta(get_the_ID(), '_job_qualifications', true);
+                    $job_tags = get_the_terms(get_the_ID(), 'job_tag');
+            ?>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="<?php echo esc_attr($delay); ?>s">
+                    <div class="single-job-opening-card">
+                        <h4 class="title"><?php the_title(); ?></h4>
+                        <?php if (!empty($responsibilities)) : ?>
+                            <p>Responsibilities: <?php echo esc_html($responsibilities); ?></p>
+                        <?php endif; ?>
+                        
+                        <?php if (!empty($qualifications)) : ?>
+                            <p>Qualifications: <?php echo esc_html($qualifications); ?></p>
+                        <?php endif; ?>
+                        
+                        <?php if (!empty($job_tags) && !is_wp_error($job_tags)) : ?>
+                            <div class="tag-wrapper">
+                                <?php foreach ($job_tags as $tag) : ?>
+                                    <div class="single">
+                                        <span><?php echo esc_html($tag->name); ?></span>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        <?php endif; ?>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                <div class="single-job-opening-card">
-                    <h4 class="title">Help Desk Technician</h4>
-                    <p>Responsibilities: Work with clients to assess their IT needs, develop strategic
-                        roadmaps, and implement tailored solutions.</p>
-                    <p>Qualifications:  Strong analytical skills, excellent communication abilities, and
-                        a background in IT strategy and implementation.</p>
-                    <div class="tag-wrapper">
-                        <div class="single">
-                            <span>IT Consulting</span>
-                        </div>
-                        <div class="single">
-                            <span>IT Solutions</span>
-                        </div>
-                        <div class="single">
-                            <span>Consulting Services</span>
-                        </div>
+            <?php
+                    $delay += 0.2;
+                endwhile;
+                wp_reset_postdata();
+            else :
+            ?>
+                <div class="col-lg-12">
+                    <div class="title-center-style-two">
+                        <p class="no-jobs-message"><h6>No job openings available at the moment. Please check back later.</h6></p>
                     </div>
                 </div>
-            </div>
+            <?php endif; ?>
         </div>
     </div>
 </div>
 <!-- job opening area end -->
+
+ 
 
 <br>
 

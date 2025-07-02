@@ -41,10 +41,12 @@ function seyyone_setup() {
 add_action('after_setup_theme', 'seyyone_setup');
 
 // INCLUDE CUSTOM FUNCTIONS
-// Include Software Functions
+ 
 require_once get_template_directory() . '/inc/software-functions.php';
 require_once get_template_directory() . '/inc/healthcare-functions.php';
 require_once get_template_directory() . '/inc/blog-functions.php';
+require_once get_template_directory() . '/inc/career-functions.php';
+
 
 // Deregister default WordPress jQuery to avoid conflicts with our custom loading
 function seyyone_deregister_wp_jquery() {
